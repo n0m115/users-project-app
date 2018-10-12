@@ -1,0 +1,47 @@
+<section class="container-fluid">
+  <div class="row">
+    <div class="col projects-container">
+        <h3 class="float-left">Add Project</h3>
+        <div class="clearfix"></div>
+        <div class="add-project-frame">
+            <form>
+                <div class="form-group">
+                    <label for="projectName">Title</label>
+                    <input type="text" class="form-control" id="projectName" placeholder="Project Name">
+                </div>
+                <div class="form-group">
+                    <label for="projectDescription">Description</label>
+                    <textarea rows="7" class="form-control" id="projectDescription"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="teamLead">Team Lead:</label>
+                    <input type="text" class="form-control" id="teamLead" value="Naveed Ahmed">
+                </div>
+                <div class="form-group">
+                    <label for="selectMembers">Members:</label>
+                    <select class="form-control" id="selectMembers" multiple>
+                        <option>Aslam Shahid</option>
+                        <option>Umer Ali</option>
+                        <option>Imran Majeed</option>
+                        <option>Naeem Ahmed</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Document</label>
+                    <div>
+                        <input type="file"><i class="fas fa-plus"></i>
+                    </div>
+                    <div class="mt-10">
+                        <input type="file"><i class="fas fa-plus mr-10"></i><i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div class="float-right">
+                    <input type="reset" value="Cancel">
+                    <input class="btn btn-info" type="submit" value="Submit">
+                </div>
+                <div class="clearfix"></div>
+            </form>
+        </div>
+    </div>
+  </div>
+</section>

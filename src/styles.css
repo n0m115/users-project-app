@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+/* CSS Document */
+
+.mt-10{margin-top:10px}
+.mt-20{margin-top:20px}
+.mr-10{margin-right:10px}
+.mr-20{margin-right:20px}
+.btn-design{border: 1px solid #dfdfdf; color: #666262;padding: 3px 10px;margin: 5px 0;}
+
+
+h3{color:#fff;}
+header{background:#fff;}
+.zameen_logo{margin-left: 10px; background-image: url('assets/img/zameen_logo.svg');height: 55px; width: 150px;background-size: 100% 100%;}
+body{background:#2ECC71}
+input[type="button"]{background: #0079D1; color: #fff; font-weight: bold;border-radius: 5px;}
+.input-style , .select-style{margin:3px 0;width: 100%;padding: 5px 10px;border: 0}
+.registration-container{max-width:600px;width:100%;margin:0 auto;padding:40px 15px 0 15px;}
+.login-container{max-width:600px;margin:0 auto;padding:40px 15px 0 15px;}
+.navbar-nav .nav-item a.nav-link{color: #000}
+.navbar-nav .nav-item.active a.nav-link{color: #000; font-weight: bold;}
+
+
+/* Project Page Css */
+.projects-container{width:100%;margin:0 auto;padding:40px 15px 0 15px;}
+.projects-container .table{background: #fff}
+.projects-container .table thead{background: #EAEDF3; line-height: 1}
+.projects-container .table tbody td.name a{color: #000}
+.projects-container .table tbody td.name:hover a{color: #0079D1; text-decoration:underline ;}
+.projects-container .detail{background: #fff; color: rgb(32, 31, 31); padding: 30px 10px;}
+.projects-container .detail .bottom-sec{padding: 15px 0px 0px 0px;}
+.projects-container .detail .bottom-sec > span{font-size: 18px;font-weight: 600;}
+.projects-container .detail-card{border: 1px solid #4366B9 ; border-radius: 5px;padding-bottom:5px; }
+.projects-container .detail-card .head{background: #4366B9; color: #fff;padding: 10px 20px;font-size: 17px;}
+.projects-container .detail-card .body{background: #fff; padding: 10px}
+.projects-container .detail-card .body > div{padding: 5px 0}
+.projects-container .detail-card .body .fas.fa-arrow-up:before{color:#E33615}
+
+.projects-container .comments-card{border: 1px solid #DFDFDF ; border-radius: 5px;margin: 20px 0;padding: 5px 0; }
+.projects-container .comments-card .head{padding: 5px 20px 10px 10px;font-size: 15px;background: #F5F5F5;border-bottom: 1px solid #DFDFDF ;}
+.projects-container .comments-card .body{padding: 20px 20px}
+.projects-container .comments-card .body form {padding: 0}
+.projects-container .comments-card .body form label{font-weight: bold}
+.projects-container .comments-card .body form textarea{border-radius: 5px;width: 100%;border: 1px solid #DFDFDF;}
+.projects-container .comments-card .body form input[type="button"]{background: #3855D4}
+.projects-container .comments-card .body .comments{padding: 10px 0}
+.projects-container .comments-card .body .comments .title{border-bottom: 1px solid #EAEDF3; padding-top: 10px;}
+.projects-container .comments-card .body .comments ul{padding-top: 10px;margin-bottom: 5px;}
+
+
+.add-project-frame{background: #fff; padding: 15px 15px; border-radius: 5px;}
+.add-project-frame form label {font-weight: 600}
+.add-project-frame form input[type="reset"] {-webkit-appearance: none;border: 0;background: none;color: #3855D4;}
+.add-project-frame form input[type="submit"] {background: #3855D4;}
+.add-project-frame form .fas.fa-plus {color: #3957D8}
+.add-project-frame form .fas.fa-times {color: #E33615}
+
+.add-task-frame{background: #fff; padding: 15px 15px; border-radius: 5px;}
+.add-task-frame form label {font-weight: 600}
+.add-task-frame form input[type="reset"] {-webkit-appearance: none;border: 0;background: none;color: #3855D4;}
+.add-task-frame form input[type="submit"] {background: #3855D4;}
+.add-task-frame form .fas.fa-plus {color: #3957D8}
+.add-task-frame form .fas.fa-times {color: #E33615}
+
+.pview-container .pview-card{background: #EDEDED;padding: 10px 10px;margin-top:10px ;border-radius: 5px;color: #636568}
+.pview-container .pview-card .box{background: #fff;padding: 10px 15px;border-radius: 5px;margin-top: 5px; }
+.pview-container .pview-card .box > a{font-weight: 600; color:#636568}
+.pview-container .pview-card .box > a:hover{font-weight: 600; color:#5282D5}
+.pview-container .pview-card .box > a i{display: none}
+.pview-container .pview-card .box > a:hover i{display: inline}
+.pview-container .pview-card .box > a:hover i.fa-pencil-alt:before{font-size: 10px;}
+.pview-container .pview-card .box > span{margin-top: 10px;}
+.pview-container .pview-card .box > span.fa-user:before {font-size: 10px;}
+
+/* Users Page */
+.users-container{width:100%;margin:0 auto;padding:40px 15px 0 15px;}
+.users-container .table{background: #fff}
+.users-container .table thead{background: #EAEDF3; line-height: 1}
+.users-container .table tbody td.name a{color: #000}
+.users-container .table tbody td.name:hover a{color: #0079D1; text-decoration:underline ;}
+
