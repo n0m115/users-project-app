@@ -18,15 +18,7 @@ const routes: Routes = [
   { path: 'signin', component: SigninComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'users', component: UsersComponent },
-  {
-    path: 'projects', component: ProjectsComponent/*,
-    'children': [
-      {
-        path: 'add',
-        component: ProjectAddComponent
-      }
-    ]*/
-  },
+  { path: 'projects', component: ProjectsComponent },
   { path: 'projects/add', component: ProjectAddComponent },
   { path: 'projects/:id', component: ProjectDetailComponent },
   { path: 'tasks', component: TasksComponent },
